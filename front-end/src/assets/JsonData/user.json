@@ -1,0 +1,26 @@
+[
+    {
+        "first_name": "Phi",
+        "last_name": "Hùng",
+        "user_name": "hung",
+        "password": "hung123"
+    },
+    {
+        "first_name": "Ngọc",
+        "last_name": "Nam",
+        "user_name": "nam",
+        "password": "nam123"
+    },
+    {
+        "first_name": "Tiến",
+        "last_name": "Anh",
+        "user_name": "anh",
+        "password": "anh123"
+    },
+    {
+        "first_name": "Hồng",
+        "last_name": "Nhung",
+        "user_name": "nhung",
+        "password": "nhung123"
+    }
+]

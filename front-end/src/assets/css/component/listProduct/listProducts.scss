@@ -1,0 +1,159 @@
+.list-products{
+    .content{
+        padding:0;
+        .banner{
+            background-image: url('https://static01.nyt.com/images/2020/02/28/books/00Marchbooks/00Marchbooks-videoSixteenByNineJumbo1600.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding: 30vh;
+            background-position: center
+        }
+    h4{
+        text-align: center;
+        margin: 1rem 0;
+        color: var(--txt-bold-color);
+    }
+    .inner_content{
+        .filter-products{
+            padding: 1%;
+ 
+            .inner-filter{
+                background-color: rgba(241, 240, 240, 0.12);
+                height: 95%;
+                border-right: 1px solid rgba(84, 84, 84, 0.135);
+                ul{
+                    font-size: 1.2rem;
+                    margin-top: 4rem;
+                    h3{
+                        padding-left: 1rem;
+                    }
+                    list-style: none;
+                    
+                    li{
+                       
+                        padding: 0.5rem 0 ;
+                        li{
+                           padding-left: 2rem;
+                          
+                        }
+                        ul{
+                            margin: 0 1rem;
+                        }
+                    }
+                    .tag{
+                        
+                            font-size: 1.4rem;
+                            font-weight: 600;
+                        
+                    }
+                }
+              
+            }
+        }
+        .filter-sidebar{
+            position: fixed;
+            top: 0;
+            bottom: 0;  
+            z-index: 9999;
+            background-color: black;
+            width: 70vw;
+            height: 100vh;
+            padding: 0;
+            .inner-filter-sidebar{
+               ul{
+                   color: white;
+                   list-style: none;
+                   font-weight: 500;
+                   font-size: 16px;
+                   padding: 1rem 0.8rem;
+                   margin: 0;
+                   
+               }
+               
+            }
+            .close-filter{
+                color: white;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+                padding: 1rem 0;
+                
+            }
+            .close-filter:hover{
+                background-color: var(--txt-bold-color);
+            }
+        }
+        .active-filter-sidebar{
+            display: none;
+        }
+        .list{
+            .sort{
+                .sort-text,.sort-cate{
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    align-self: center;
+                }
+                .bars,.bars-filter{
+                    align-self: center;
+                    width: 30px;
+                   display: none;
+                }
+                
+                .sort-text{
+                    opacity: 0.8;
+                }
+                .sort-cate{
+                  text-align: right;
+                  #sort{
+                      padding: 0 1.5rem;
+                      height: 50px;
+                        margin: 0;
+                      border: 1px solid rgb(214, 214, 214);
+                      font-size: 1rem;
+                      option{
+                          border-radius:0;
+                        
+                      }
+                  }
+                }
+            }
+            .product{
+                
+            }
+        }
+    }
+}
+}
+@media all and (min-width:1200px){
+    .list-product-item{
+        max-width: 20%;
+    }
+}
+@media all and (max-width:1200px){
+    .filter-products{
+        display: none;
+    }
+  
+    .bars,.bars-filter{
+        display: inline-block !important;
+    }
+    .list{
+        padding: 1.4rem;
+    }
+}
+@media all and (max-width:768px){
+    .banner{
+        display: none;
+    }
+    .list-product-item{
+        margin: auto !important;
+    }
+    .sort-cate{
+        span{
+            display: none;
+        }
+        #sort{
+         width: auto !important;
+        }
+      }
+}

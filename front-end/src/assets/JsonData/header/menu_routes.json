@@ -1,0 +1,63 @@
+[
+    {
+        "display_name": "Bán chạy nhất",
+        "route_tag": "/#top_book"
+    },
+    {
+        "display_name": "Văn học",
+        "route": "/lite",
+        "route_tag": "/#literary",
+        "dropdown": [
+            {
+                "display_name": "Tiểu thuyết",
+                "route": "/lite/novel"
+            },
+            {
+                "display_name": "Sử thi",
+                "route": "/lite/epic"
+            },
+            {
+                "display_name": "Lãng mạn",
+                "route": "/lite/romantic"
+            }
+        ]
+    },
+    {
+        "display_name": "Kinh tế",
+        "route": "/eco",
+        "route_tag": "/#economy",
+        "dropdown": [
+            {
+                "display_name": "Tài chính",
+                "route": "/eco/finance"
+            },
+            {
+                "display_name": "Khời nghiệp",
+                "route": "/eco/startup"
+            },
+            {
+                "display_name": "Câu chuyện",
+                "route": "/eco/story"
+            }
+        ]
+    },
+    {
+        "display_name": "Huyền ảo",
+        "route": "/fan",
+        "route_tag": "/#fantasy",
+        "dropdown": [
+            {
+                "display_name": "Sử thi kỳ ảo",
+                "route": "/fan/epic"
+            },
+            {
+                "display_name": "Anh hùng giả tưởng",
+                "route": "/fan/hero"
+            },
+            {
+                "display_name": "Lịch sử",
+                "route": "/fan/hítory"
+            }
+        ]
+    }
+]

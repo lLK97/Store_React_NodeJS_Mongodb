@@ -1,0 +1,17 @@
+.blog{
+    
+    .top_img{
+        padding: 40vh;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .content-post{
+        max-width: 900px;
+        margin: auto;
+        padding-inline: 6vw;
+       .title{
+           margin: 2rem 0;
+       }
+    }
+}

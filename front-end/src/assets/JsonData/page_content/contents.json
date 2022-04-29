@@ -1,0 +1,68 @@
+[
+    {
+        "literary": [
+            {
+                "display_name": "Văn học",
+                "route": "/lite",
+                "category": [
+                    {
+                        "url_image": "https://www.pngall.com/wp-content/uploads/2016/03/Book-PNG-2.png",
+                        "display_name": "Tiểu thuyết"
+                    },
+                    {
+                        "url_image": "https://freepikpsd.com/file/2019/10/historical-icon-png-5-Transparent-Images-Free.png",
+                        "display_name": "Sử thi"
+                    },
+                    {
+                        "url_image": "https://www.pinclipart.com/picdir/big/2-28306_the-icon-shows-two-heart-shapes-love-icon.png",
+                        "display_name": "Lãng mạn"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "economy": [
+            {
+                "display_name": "Kinh tế",
+                "route": "/eco",
+                "category": [
+                    {
+                        "url_image": "https://cdn.iconscout.com/icon/free/png-256/finance-1642789-1393874.png",
+                        "display_name": "Tài chính"
+                    },
+                    {
+                        "url_image": "https://cdn-icons-png.flaticon.com/512/377/377086.png",
+                        "display_name": "Khởi nghiệp"
+                    },
+                    {
+                        "url_image": "https://cdn-icons-png.flaticon.com/512/1487/1487342.png",
+                        "display_name": "Câu chuyện"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "fantasy": [
+            {
+                "display_name": "Huyền ảo",
+                "route": "/fan",
+                "category": [
+                    {
+                        "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Fantasy_icon.svg/1200px-Fantasy_icon.svg.png",
+                        "display_name": "Sử thi kỳ ảo"
+                    },
+                    {
+                        "url_image": "https://www.svgrepo.com/show/323865/elf-helmet.svg",
+                        "display_name": "Anh hùng giả tưởng"
+                    },
+                    {
+                        "url_image": "https://findicons.com/files/icons/2335/supervista_accounting/400/history.png",
+                        "display_name": "Lịch sử"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+.login{
+    background-image: url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+        .form-login{
+            margin: auto;
+            align-self: center;
+            background-color: rgba(207, 207, 207, 0.888);
+            width: auto;
+            height: auto;
+            padding: 6rem 4rem;
+            border-radius: 15px;
+            box-shadow: rgb(247, 247, 247) 0px 5px 15px;
+            .title{
+                text-align: center;
+            }
+            .item{
+                display: block;
+                margin: 2rem auto;
+                &--input{
+                    padding: 0.6rem 1rem;
+                    outline: none;
+                    border: 0;
+                }
+            }
+            .btn-login{
+                padding: 0.5rem 2rem;
+                border: 0;
+                border-radius: 5px;
+            }
+        }
+    
+}

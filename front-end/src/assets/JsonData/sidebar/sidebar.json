@@ -1,0 +1,17 @@
+[
+    {
+        "display_name": "Dashboard",
+        "icon": "fa fa-list",
+        "route": "/ad/dashboard"
+    },
+    {
+        "display_name": "Products",
+        "icon": "fa fa-industry",
+        "route": "/ad/products"
+    },
+    {
+        "display_name": "Users",
+        "icon": "fa fa-users",
+        "route": "/ad/user"
+    }
+]

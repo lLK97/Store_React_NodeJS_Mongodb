@@ -1,0 +1,33 @@
+@import './content/content.scss';
+.dashboard{
+   display: flex; 
+   flex-wrap: wrap;
+   .left, .right{
+      overflow-y: scroll;
+      height: 100vh;
+      margin: 0;
+      border: 0;
+      padding: 0;
+   }
+   .left{
+      box-shadow: var(--shawdow);
+      z-index: 3;
+   } 
+   .btn-dashboard{
+      margin: 1rem;
+   }
+}
+@media all and (max-width: 992px){
+   .left{
+     transform: translateX(-100%);
+     position: fixed;
+     transition: all 0.5s ease-in-out;
+   } 
+   .active_sidebar{
+      transform: translateX(0);
+      transition: all 0.5s ease-in-out;
+   }
+   .btn-dashboard{
+      margin: 1rem 0 !important;
+   }
+}

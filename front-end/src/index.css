@@ -1,0 +1,72 @@
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ a {
+    text-decoration: none;
+    /* color: black !important; */
+} 
+
+/* a:hover{
+  color: var(--txt-bold-color);  
+  text-decoration: none !important;
+}  */
+input[type="checkbox"]{
+    margin-top: -0.1rem !important;
+    margin-right: 0.5rem !important;
+    
+ 
+}
+.content-wrapper {
+    max-width: 2000px;
+    margin: auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(199, 199, 199);
+    display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    display: block;
+}
+
+:root {
+    /* device */
+    --mobile-max-width: 960px;
+    /* // color  */
+    --txt-bold-color: #fcaf17;
+    --txt-default-color: #000000;
+    /* // backgrounnd color */
+    --bg-color: #ffffff;
+    --bg-color-dashboard: #00a2a7; 
+    --thumbnail-color: rgb(238, 77, 45);
+    /* border round */
+    --border-round: 3px;
+    --border-cricle: 50%;
+    /* box shadow  */
+    --shawdow: rgba(0, 0, 0, 0.15) 5px 5px 8px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

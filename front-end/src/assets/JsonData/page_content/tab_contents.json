@@ -1,0 +1,80 @@
+[
+    {
+        "literary": [
+            {
+                "display_name": "Văn học",
+                "route": "/lite",
+                "tab_product": [
+                    {
+                        "display_name": "Bán chạy nhất",
+                        "route": "/lite/#top_product"
+                    },
+                    {
+                        "display_name": "Tiểu thuyết",
+                        "route": "/lite/#novel"
+                    },
+                    {
+                        "display_name": "Sử thi",
+                        "route": "/lite/#epic"
+                    },
+                    {
+                        "display_name": "Lãng mạn",
+                        "route": "/lite/#romantic"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "economy": [
+            {
+                "display_name": "Kinh tế",
+                "route": "/eco",
+                "tab_product": [
+                    {
+                        "display_name": "Bán chạy nhất",
+                        "route": "/eco/#top_product"
+                    },
+                    {
+                        "display_name": "Tài chính",
+                        "route": "/eco/#finance"
+                    },
+                    {
+                        "display_name": "Khời nghiệp",
+                        "route": "/eco/#startup"
+                    },
+                    {
+                        "display_name": "Câu chuyện",
+                        "route": "/eco/#story"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "fantasy": [
+            {
+                "display_name": "Huyền ảo",
+                "route": "/fan",
+                "tab_product": [
+                    {
+                        "display_name": "Bán chạy nhất",
+                        "route": "/fan/#top_product"
+                    },
+                    {
+                        "display_name": "Sử thi kỳ ảo",
+                        "route": "/fan/#epic"
+                    },
+                    {
+                        "display_name": "Anh hùng giả tưởng",
+                        "route": "/fan/#hero"
+                    },
+                    {
+                        "display_name": "Lịch sử",
+                        "route": "/fan/#history"
+                    }
+                ]
+            }
+        ]
+    }
+]

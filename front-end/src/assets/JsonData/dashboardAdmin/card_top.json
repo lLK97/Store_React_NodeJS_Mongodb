@@ -1,0 +1,22 @@
+[
+    {
+        "display_name": "PRODUCTS",
+        "icon": "fa fa-shopping-cart",
+        "number": "300 +"
+    },
+    {
+        "display_name": "USERS",
+        "icon": "fa fa-user",
+        "number": "28K +"
+    },
+    {
+        "display_name": "SESSIONS",
+        "icon": "fa fa-chart-line",
+        "number": "100K +"
+    },
+    {
+        "display_name": "VISIT DURATION",
+        "icon": "fa fa-user-plus",
+        "number": "3m 40sec"
+    }
+]

@@ -1,0 +1,38 @@
+.item-slide {
+    padding: 60%;
+    padding-inline: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-slider {}
+
+
+.Product_Slide_Detail {
+    padding: 1rem;
+    position: relative;
+
+    .large-image {
+        padding: 1rem;
+    }
+
+    .thumb-image-slide {
+        padding: 0;
+
+        .slick-slider {
+            .slick-list {
+                .slick-track {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .slick-slide {
+                        width: 100% !important;
+                        height: 100%;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

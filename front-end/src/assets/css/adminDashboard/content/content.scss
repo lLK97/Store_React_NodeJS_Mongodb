@@ -1,0 +1,114 @@
+.content{
+    padding: 1.5rem;
+    &--home{
+        // card item
+        .card-item{
+            margin: 1rem 0;
+            .card-item-inner{
+                border: 1px solid rgba(0,0,0,0.15);
+                .title{
+                    font-weight: 600;
+                }
+                .number{
+                    >i, >h2{
+                        text-align: center;
+                        align-self: center;
+                      
+                    }
+                    >h2{
+                        line-height:1.5;
+                    }
+                }
+            }
+        }
+        // chart 
+        .chart-group{
+            margin: 2rem 0;
+            .item{
+                min-height: 400px !important;
+                height: 400px !important;
+            }
+        }
+        .table-group{
+            margin:  0;
+            
+            .table-innner{
+                margin-inline: auto;
+             
+                padding: 2rem;
+                border: 1px solid rgba(0,0,0,0.05);
+                .card-table{
+                  h5{
+                      border-bottom: 1px solid rgba(0,0,0,0.05);
+                      padding-bottom: 1rem;
+                  }
+                }
+            // border-bottom: 1px solid rgba(0,0,0,0.15);
+            }
+        }
+    }
+    &--products, &--users{
+        .Button-active{
+            .btn {
+                font-weight: 500;
+            }
+        }
+        .card-table {
+            border: 1px solid rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-top: 2rem;
+            height: calc(100% - 80px);
+        }
+        .search-gr{
+            margin-top: 1rem;
+            .max-products_show{
+                font-weight: 500;
+                span{
+                    select{
+                        border-radius: 5px;
+                    }
+                }
+            }
+            .search-box{
+                span, input{
+                    float: right
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (min-width: 992px){
+    .content{
+        &--home{
+           
+                .card-item-inner{
+                    max-width: 24% !important;
+                    margin: auto;
+                }
+            }
+            // chart 
+            
+        }
+        .table-group{
+            .table-innner{
+              
+               max-width: 48%;
+            }
+        }
+ }
+@media all and (max-width: 992px){
+    .content{
+        &--home{
+           
+                .card-item-inner{
+                  
+                   margin: 1rem auto;
+                   
+                }
+            }
+            // chart 
+            
+        }
+ }

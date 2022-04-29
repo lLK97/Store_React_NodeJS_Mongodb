@@ -1,0 +1,27 @@
+@import "../../util/mixin.scss";
+@include product;
+
+
+.product {
+    margin: 2rem auto;
+
+    .product-inner-item {
+        cursor: pointer;
+        margin: 0 0 2rem 0;
+        padding-inline: 1rem;
+   
+        .avatar {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 5px;
+        }
+    }
+    
+
+    .bt {
+        @include button_blog(var(--bg-color), var(--txt-bold-color));
+    }
+
+    .bt:hover {
+        @include button_blog_hover(var(--txt-bold-color), var(--bg-color))
+    }
+}

@@ -1,0 +1,79 @@
+.footer {
+    background-color: rgb(101, 101, 230);
+    padding: 3rem 0;
+    color: var(--bg-color);
+  
+    margin: auto;
+    .content {
+        max-width: 1800px;
+        margin: 0 auto;
+        >div{
+            margin: 0 auto;
+        }
+        .contact {
+            .description {
+                margin-bottom: 1.5rem;
+                text-align: justify;
+            }
+
+            .registration_box {
+                .title {
+                    margin: 1rem 0
+                }
+
+                .box {
+                    display: flex;
+                    margin: 0;
+                    input {
+                        padding: 0.6rem 0.8rem 0.6rem 1.5rem;
+                        height: 50px;
+                        border: 0;
+                    }
+
+                    .bt {
+                        text-align: center;
+                        background-color: var(--txt-bold-color);
+                        line-height: 3;
+                        padding-inline: 1.5rem;
+                        margin: 1rem 0;
+                    }
+
+                    .bt:hover {
+                        background-color: rgb(88, 88, 199);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .information {
+            .description {
+                text-align: justify;
+            }
+        }
+        .location{
+            .item{
+                align-self: center;
+                .icon{
+                    align-self: center;
+                }
+            }
+        }
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .content {
+        >div {
+            margin: 1rem auto;
+        }
+    }
+    .location{
+        margin: 1rem 0 !important; 
+        padding: 0 !important;
+        .item{
+            margin: 1rem 0;
+        }
+    }
+}

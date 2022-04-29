@@ -1,0 +1,56 @@
+form {
+    width: 300px;
+}
+
+.value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form #decrease {
+    // margin-right: -4px;
+    border-radius: 20% 0 0 20%;
+}
+
+form #increase {
+    // margin-left: -4px;
+    border-radius: 0 20% 20% 0;
+
+
+}
+
+
+
+input#number {
+    text-align: center;
+    border: none;
+    // border: 1px solid #ddd;
+    padding: 0px;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
